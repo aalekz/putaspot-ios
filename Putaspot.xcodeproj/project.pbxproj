@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62D7106157FC1F800F16AF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D7105157FC1F800F16AF4 /* UIKit.framework */; };
+		B62D7108157FC1F800F16AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D7107157FC1F800F16AF4 /* Foundation.framework */; };
+		B62D710A157FC1F800F16AF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62D7109157FC1F800F16AF4 /* CoreGraphics.framework */; };
+		B62D7110157FC1F800F16AF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B62D710E157FC1F800F16AF4 /* InfoPlist.strings */; };
+		B62D7112157FC1F800F16AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D7111157FC1F800F16AF4 /* main.m */; };
+		B62D7116157FC1F800F16AF4 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D7115157FC1F800F16AF4 /* PSAppDelegate.m */; };
+		B62D7119157FC1F800F16AF4 /* PSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D7118157FC1F800F16AF4 /* PSViewController.m */; };
+		B62D711C157FC1F800F16AF4 /* PSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62D711A157FC1F800F16AF4 /* PSViewController_iPhone.xib */; };
+		B62D711F157FC1F800F16AF4 /* PSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62D711D157FC1F800F16AF4 /* PSViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B62D7101157FC1F800F16AF4 /* Putaspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Putaspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62D7105157FC1F800F16AF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B62D7107157FC1F800F16AF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B62D7109157FC1F800F16AF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B62D710D157FC1F800F16AF4 /* Putaspot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Putaspot-Info.plist"; sourceTree = "<group>"; };
+		B62D710F157FC1F800F16AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B62D7111157FC1F800F16AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62D7113157FC1F800F16AF4 /* Putaspot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Putaspot-Prefix.pch"; sourceTree = "<group>"; };
+		B62D7114157FC1F800F16AF4 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		B62D7115157FC1F800F16AF4 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		B62D7117157FC1F800F16AF4 /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
+		B62D7118157FC1F800F16AF4 /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
+		B62D711B157FC1F800F16AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPhone.xib; sourceTree = "<group>"; };
+		B62D711E157FC1F800F16AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62D70FE157FC1F800F16AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62D7106157FC1F800F16AF4 /* UIKit.framework in Frameworks */,
+				B62D7108157FC1F800F16AF4 /* Foundation.framework in Frameworks */,
+				B62D710A157FC1F800F16AF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62D70F6157FC1F800F16AF4 = {
+			isa = PBXGroup;
+			children = (
+				B62D7126157FC2E100F16AF4 /* ASIHTTPRequest */,
+				B62D710B157FC1F800F16AF4 /* Putaspot */,
+				B62D7104157FC1F800F16AF4 /* Frameworks */,
+				B62D7102157FC1F800F16AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62D7102157FC1F800F16AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62D7101157FC1F800F16AF4 /* Putaspot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62D7104157FC1F800F16AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62D7105157FC1F800F16AF4 /* UIKit.framework */,
+				B62D7107157FC1F800F16AF4 /* Foundation.framework */,
+				B62D7109157FC1F800F16AF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B62D710B157FC1F800F16AF4 /* Putaspot */ = {
+			isa = PBXGroup;
+			children = (
+				B62D7114157FC1F800F16AF4 /* PSAppDelegate.h */,
+				B62D7115157FC1F800F16AF4 /* PSAppDelegate.m */,
+				B62D7117157FC1F800F16AF4 /* PSViewController.h */,
+				B62D7118157FC1F800F16AF4 /* PSViewController.m */,
+				B62D711A157FC1F800F16AF4 /* PSViewController_iPhone.xib */,
+				B62D711D157FC1F800F16AF4 /* PSViewController_iPad.xib */,
+				B62D710C157FC1F800F16AF4 /* Supporting Files */,
+			);
+			path = Putaspot;
+			sourceTree = "<group>";
+		};
+		B62D710C157FC1F800F16AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62D710D157FC1F800F16AF4 /* Putaspot-Info.plist */,
+				B62D710E157FC1F800F16AF4 /* InfoPlist.strings */,
+				B62D7111157FC1F800F16AF4 /* main.m */,
+				B62D7113157FC1F800F16AF4 /* Putaspot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B62D7126157FC2E100F16AF4 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62D7100157FC1F800F16AF4 /* Putaspot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62D7122157FC1F800F16AF4 /* Build configuration list for PBXNativeTarget "Putaspot" */;
+			buildPhases = (
+				B62D70FD157FC1F800F16AF4 /* Sources */,
+				B62D70FE157FC1F800F16AF4 /* Frameworks */,
+				B62D70FF157FC1F800F16AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Putaspot;
+			productName = Putaspot;
+			productReference = B62D7101157FC1F800F16AF4 /* Putaspot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62D70F8157FC1F800F16AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B62D70FB157FC1F800F16AF4 /* Build configuration list for PBXProject "Putaspot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B62D70F6157FC1F800F16AF4;
+			productRefGroup = B62D7102157FC1F800F16AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62D7100157FC1F800F16AF4 /* Putaspot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62D70FF157FC1F800F16AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62D7110157FC1F800F16AF4 /* InfoPlist.strings in Resources */,
+				B62D711C157FC1F800F16AF4 /* PSViewController_iPhone.xib in Resources */,
+				B62D711F157FC1F800F16AF4 /* PSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62D70FD157FC1F800F16AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62D7112157FC1F800F16AF4 /* main.m in Sources */,
+				B62D7116157FC1F800F16AF4 /* PSAppDelegate.m in Sources */,
+				B62D7119157FC1F800F16AF4 /* PSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B62D710E157FC1F800F16AF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62D710F157FC1F800F16AF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B62D711A157FC1F800F16AF4 /* PSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62D711B157FC1F800F16AF4 /* en */,
+			);
+			name = PSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B62D711D157FC1F800F16AF4 /* PSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62D711E157FC1F800F16AF4 /* en */,
+			);
+			name = PSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62D7120157FC1F800F16AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B62D7121157FC1F800F16AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62D7123157FC1F800F16AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Putaspot/Putaspot-Prefix.pch";
+				INFOPLIST_FILE = "Putaspot/Putaspot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B62D7124157FC1F800F16AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Putaspot/Putaspot-Prefix.pch";
+				INFOPLIST_FILE = "Putaspot/Putaspot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62D70FB157FC1F800F16AF4 /* Build configuration list for PBXProject "Putaspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62D7120157FC1F800F16AF4 /* Debug */,
+				B62D7121157FC1F800F16AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62D7122157FC1F800F16AF4 /* Build configuration list for PBXNativeTarget "Putaspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62D7123157FC1F800F16AF4 /* Debug */,
+				B62D7124157FC1F800F16AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62D70F8157FC1F800F16AF4 /* Project object */;
+}
